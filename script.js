@@ -1,5 +1,9 @@
 //PABLO Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.
-
+let num1 = 5
+let num2 = 3
+if (num1 > num2){
+    console.log("el primer número es mayor")
+}
 
 //RAUL Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.
 
