@@ -16,6 +16,18 @@ if (nro1 === nro2) {
 
 // MAURO Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.
 
+let num = Number (prompt("ingresa un numero"));
+let num3 = Number (prompt("ingresa otro numero breo"));
+if ( num > num3) {
+  console.log(`${num} es mas grande que ${num3}`);
+}
+else if ( num3 > num) {
+  console.log(`${num3} es mas grande que ${num}`);
+}
+else if ( num === num3 ) {
+  console.log(`${num3} es igual que ${num}`);
+}
+
 // GABRIEL Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.
 
 // BRUNO Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.
