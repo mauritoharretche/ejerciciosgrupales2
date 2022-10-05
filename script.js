@@ -76,6 +76,21 @@ if (persona1.edad > persona2.edad){
 
 // ALEJANDRO Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.
 
+let persona = { };
+
+persona.nombre = prompt('Ingresa tu nombre : ');
+persona.edad = Number(prompt('Ingresa tu edad : '));
+persona.altura = Number(prompt('Ingresa tu altura : '));
+persona.vision = Number(prompt('Ingresa tu grado de vision del 1 al 10 : '));
+
+if ( persona.edad >= 18 && persona.altura >= 150 && persona.vision >= 8){
+  alert(`${persona.nombre} estas capacitado para conducir`);
+}
+
+else{
+  alert(`${persona.nombre} no estas capacitado para conducir`);
+}
+
 // CESAR Realizar un programa que permita el ingreso de los siguientes datos: Nombre, pase (vip o normal), si posee entrada (si o no, s o n, true o false). Las personas que posean tu mismo nombre tienen ingreso libre así como también los que posean un pase vip, mostrar un mensaje de bienvenida. Si posee entrada preguntar si desea utilizarla, en caso afirmativo mostrar mismo mensaje de bienvenida. Y por ultimo de no tener el mismo nombre o poseer un pase vip o entrada, preguntar si desea comprar, caso afirmativo solicitar dinero disponible, si posee $1000 o mas, mostrar mensaje de venta de entrada y bienvenida, caso contrario mostrar mensaje de rechazo de venta, y en caso contrario a no querer comprar, mostrar mensaje de despedida.
 
 // ANTO Realizar un juego de adivinanza estableciendo un valor entre 1 y 10 en una variable llamada numeroIncognita y que permita en 3 intentos adivinar el numero. El usuario deberá ingresar un numero del 1 al 10 por pantalla en 3 intentos el cual se deberá guardar en una variable llamada numeroIngresado, y en cada intento deberás mostrarle un mensaje al usuario diciendo: “el numero ingresado es mayor, vuelve a intentarlo” o “el numero ingresado es menor, vuelve a intentarlo” o en caso de adivinar, un mensaje que diga: “Ganaste, haz adivinado el numero.” No te preocupes si usas mucho código repetido, mas adelante veraz como realizar este juego de manera mas eficiente.
