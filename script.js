@@ -1,11 +1,11 @@
-//PABLO Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.
+// 1 PABLO Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.
 let num1 = 5;
 let num2 = 3;
 if (num1 > num2) {
   console.log("el primer número es mayor");
 }
 
-//RAUL Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.
+// 2 RAUL Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.
 let nro1 = Number(prompt("ingrese un numerito"));
 let nro2 = Number(prompt("Ingrese el segundo numerito"));
 if (nro1 === nro2) {
@@ -14,7 +14,7 @@ if (nro1 === nro2) {
   console.log("Los numeros ingresados son distintos");
 }
 
-// MAURO Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.
+// 3 MAURO Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.
 
 let num = Number (prompt("ingresa un numero"));
 let num3 = Number (prompt("ingresa otro numero breo"));
@@ -28,7 +28,7 @@ else if ( num === num3 ) {
   console.log(`${num3} es igual que ${num}`);
 }
 
-// GABRIEL Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.
+// 4 GABRIEL Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.
 
 let nume1 = 10
 
@@ -48,7 +48,7 @@ if( nume1 < nume2 && nume1 < nume3){
       alert(`${nume3} es mas chico que ${nume2} y ${nume1}`)
 }
 
-// BRUNO Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.
+// 5 BRUNO Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.
 let persona1 ={
         nombre: "Aldana",
         edad: 25,
@@ -74,7 +74,7 @@ if (persona1.edad > persona2.edad){
   alert(`${persona2.nombre} tiene la misma edad que ${persona1.nombre}`)
 }
 
-// ALEJANDRO Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.
+// 6 ALEJANDRO Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.
 
 let persona = { };
 
