@@ -49,6 +49,30 @@ if( nume1 < nume2 && nume1 < nume3){
 }
 
 // BRUNO Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.
+let persona1 ={
+        nombre: "Aldana",
+        edad: 25,
+        altura: 159,
+}
+let persona2={
+        nombre: "Rocio",
+        edad: 25,
+        altura: 170,
+}
+if ( persona1.altura > persona2.altura ){
+  alert(`${persona1.nombre} es mas alta que ${persona2.nombre}`)
+} else if (persona1.altura < persona2.altura){
+  alert(`${persona2.nombre} es mas alta que ${persona1.nombre}`)
+} else {
+  alert(`${persona2.nombre} mide lo mismo que ${persona1.nombre}`)
+}
+if (persona1.edad > persona2.edad){
+  alert(`${persona1.nombre} es mayor que ${persona2.nombre}`)
+} else if (persona1.edad < persona2.edad){
+  alert(`${persona2.nombre} es mayor que ${persona1.nombre}`)
+} else {
+  alert(`${persona2.nombre} tiene la misma edad que ${persona1.nombre}`)
+}
 
 // ALEJANDRO Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.
 
