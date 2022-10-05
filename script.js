@@ -30,6 +30,24 @@ else if ( num === num3 ) {
 
 // GABRIEL Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.
 
+let nume1 = 10
+
+let nume2 = 15
+
+let nume3 = 20
+
+if( nume1 < nume2 && nume1 < nume3){
+  alert(`${nume1} es mas chico que ${nume2} y ${nume3}`)
+}
+
+  else if(nume2 < nume1 && nume2 < nume3){
+    alert(`${nume2} es mas chico que ${nume1} y ${nume3}`)
+}
+
+    else if(nume3 < nume1 && nume3 < nume2){
+      alert(`${nume3} es mas chico que ${nume2} y ${nume1}`)
+}
+
 // BRUNO Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.
 
 // ALEJANDRO Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.
