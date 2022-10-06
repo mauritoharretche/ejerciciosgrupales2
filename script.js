@@ -205,6 +205,22 @@ else {
 
 // 9 ANDRES Crear un programa que permita ingresar tu edad y decir si eres un infante (0 a 12 años), adolescente(13 a 18 años), un mayor joven (19 a 45 años) o un anciano (mas de 45 años), y en caso de ingresar una edad mayor a 100 mostrar un mensaje preguntando si en realidad tiene esa edad.
 
+let edad = Number(prompt(`¿Cuantos años tenes?`))
+
+if (edad <= 12) {
+  alert (`Eres un infante`)
+} else if ( edad <= 18){
+  alert (`Eres un adolescente.`)
+}else if (edad <= 45){
+  alert (`Eres un mayor joven.`)
+}else if (edad <=100){
+  alert (`Eres un anciano`)
+} else {
+  prompt (`¿En realidad tienes esa edad?`)
+}
+
+
+
 // HERNAN Crear un programa que permita el ingreso de “PIEDRA”, “PAPEL” o “TIJERAS” a 2 jugadores y muestre en pantalla cual de los 2 ha ganado o si han empatado. En caso de algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho trampa.
 
 // --- Realizar un programa que permita el ingreso de un color y utilizando “switch” mostrar por pantalla los siguientes mensajes según las opciones: Blanco o Negro: Falta de color, Verde: El color de la naturaleza, Azul: El color del agua, Amarillo: El color del sol, Rojo: El color del fuego, Marrón: el color de la tierra, y para cualquier otro valor: Excelente elección, no lo teníamos pensado.
